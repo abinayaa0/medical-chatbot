@@ -44,7 +44,7 @@ chunks[300]
 
 ##Embeddings creation
 
-os.environ["HUGGINGFACEHUB_API_TOKEN"]="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"
+os.environ["HUGGINGFACEHUB_API_TOKEN"]="api_key_insert_here"
 
 embeddings=SentenceTransformerEmbeddings(model_name="NeuML/pubmedbert-base-embeddings")
 #downloading the model and loading it into the ram.
