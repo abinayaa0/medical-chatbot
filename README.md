@@ -1,7 +1,7 @@
-Medical Assistant Chatbot with LangChain and LLaMA
+##Medical Assistant Chatbot with LangChain and LLaMA
 This project demonstrates how to build a medical assistant chatbot using LangChain, LLaMA, and ChromaDB. The chatbot answers medical-related queries based on a set of PDF documents by combining document retrieval with large language models (LLMs).
 
-Features
+#Features
 Load and process multiple PDFs from a directory.
 Split documents into manageable chunks for better querying.
 Use embeddings from the Sentence Transformer to index and search documents.
@@ -12,7 +12,7 @@ Prerequisites
 Google Colab or a local environment with the necessary packages installed.
 A set of PDF files that the model will use to answer queries.
 Hugging Face API Token (for downloading sentence-transformer embeddings).
-Required Libraries
+#Required Libraries
 LangChain: A framework for building LLM-based applications.
 Sentence Transformers: To convert sentences into vector embeddings.
 ChromaDB: A vector database used to store, index, and search embeddings.
